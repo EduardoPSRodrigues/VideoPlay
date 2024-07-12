@@ -1,1 +1,16 @@
+.cabecalho__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Menu fixo no topo  */
+  top: 0; /* Coordenada para ficar fixo  */
+}
 
+.cabecalho__pesquisar__item {
+  display: none; /* Esconde o item de pesquisa  */
+}
+@media (min-width: 834px) {
+  .cabecalho__pesquisar__item {
+    display: block; /* Exibe o item de pesquisa  */
+  }
+}
