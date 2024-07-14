@@ -11,10 +11,27 @@
 .cabecalho__pesquisar__item {
   display: none; /* Esconde o item de pesquisa  */
 }
+
+/* RODAPÉ */
+
+.rodape__container {
+  display: flex;
+  /* flex-direction: column;
+  flex-wrap: wrap;  As duas propriedades escrito de forma resumido embaixo*/
+  flex-flow: column wrap;
+}
+
 @media (min-width: 834px) {
   /* CABEÇALHO */
   
   .cabecalho__pesquisar__item {
     display: block; /* Exibe o item de pesquisa  */
   }
+
+    /* RODAPÉ */
+
+    .rodape__container {
+      justify-content: space-between;
+    }
 }
+
