@@ -1,1 +1,16 @@
+/* RODAPÉ */
 
+.rodape__container {
+  display: flex;
+  /* flex-direction: column;
+  flex-wrap: wrap;  As duas propriedades escrito de forma resumido embaixo*/
+  flex-flow: column wrap;
+}
+
+@media (min-width: 834px) {
+  /* RODAPÉ */
+
+  .rodape__container {
+    justify-content: space-between;
+  }
+}
