@@ -1,3 +1,5 @@
+/* CABEÇALHO */
+
 .cabecalho__container {
   display: flex;
   justify-content: space-between;
@@ -10,6 +12,8 @@
   display: none; /* Esconde o item de pesquisa  */
 }
 @media (min-width: 834px) {
+  /* CABEÇALHO */
+  
   .cabecalho__pesquisar__item {
     display: block; /* Exibe o item de pesquisa  */
   }
