@@ -2,7 +2,7 @@
 
 .cabecalho__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   position: fixed; /* Menu fixo no topo  */
   top: 0; /* Coordenada para ficar fixo  */
@@ -10,6 +10,20 @@
 
 .cabecalho__pesquisar__item {
   display: none; /* Esconde o item de pesquisa  */
+}
+
+/* SUPERIOR SEÇÃO */
+
+.superior__secao__container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap; /* Não deixa quebra de linha do texto dos itens  */
+  overflow: scroll; /* Adiciona barra de rolagem  */
+  gap: 15px; /* Espaçamento entre os itens  */
+
+  
+
+
 }
 
 /* RODAPÉ */
