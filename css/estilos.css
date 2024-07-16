@@ -136,8 +136,8 @@ body {
     content: url(../img/menu/thumb_up_alt.png);
 }
 
-.icone__alura::before {
-    content: url(../img/menu/Avatar_Alura.png);
+.icone__jose::before {
+    content: url(../img/menu/Avatar_Jose.jpg);
 }
 
 .icone__gaveta::before {
