@@ -53,6 +53,27 @@
   gap: 15px; /* Espaçamento entre os itens  */
 }
 
+/* VÍDEO */
+
+.videos__item {
+  height: 303px;
+  width: 280px;
+  flex-grow: 1; /* Cada video irá crescer proporcional e ocupar toda
+  a largura da ul */
+}
+
+.videos__container {
+  display: flex;
+  flex-wrap: wrap; /* Quebra a linha dos itens  */
+  gap: 10px; /* Espaçamento entre os itens  */
+}
+
+.descricao-video p {
+  grid-area: 2 / 2 / 3 / 3;
+  font-size: 14px;
+  color: #444444;
+}
+
 /* RODAPÉ */
 
 .rodape__container {
