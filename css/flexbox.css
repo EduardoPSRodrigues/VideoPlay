@@ -91,3 +91,51 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width: 1440px) {
+  /* MENU LATERAL */
+
+  .menu__container {
+    width: 239px; /* Largura do menu  */
+    overflow: scroll; /* Adiciona barra de rolagem  */
+  }
+
+  .menu__lista:nth-child(2),
+  .menu__lista:nth-child(3),
+  .menu__lista:nth-child(4) {
+    display: flex; /* Exibe os itens 2, 3 e 4  */
+  }
+
+  .menu__lista {
+    height: auto; /* Altura do menu  */
+    padding: 20px 17px 20px 15px; /* Espaçamento interno, cor de fundo ao passar o mouse  */
+    gap: 15px; /* Espaçamento entre os itens  */
+  }
+
+  .menu__itens {
+    flex-direction: row; /* Alinha os itens em linha  */
+    align-items: center; /* Alinha os itens no centro  */
+    gap: 15px; /* Espaçamento entre os itens  */
+  }
+
+  /* Seleciona o terceiro item do menu lista */
+  .menu__lista:nth-child(3) {
+    flex-direction: column-reverse; /* Alinha os itens em coluna invertida  */
+  }
+
+  .premium {
+    order: 1;
+  }
+
+  .filmes {
+    order: 2;
+  }
+
+  .jogos {
+    order: 3;
+  }
+
+  .maispagina {
+    order: 4;
+  }
+}
